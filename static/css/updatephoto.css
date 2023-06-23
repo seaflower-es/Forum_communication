@@ -1,0 +1,25 @@
+.frame {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    margin-top: 20px;
+}
+
+.imageframe {
+    border: 1px solid gray; 
+    width: 300px;
+    height: 300px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden;
+}
+
+.formframe {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    width: 300px; 
+    margin-top: 20px;
+}

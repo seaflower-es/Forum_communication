@@ -1,0 +1,97 @@
+/* 引入字体文件 */
+@font-face {
+  font-family: 'MyFont';
+
+  src: url('../fonts/A-OTF-KaishoMCBK1Pro-DeBold-2.otf') format('otf'),
+       url('../fonts/DingTalk_JinBuTi_Regular.ttf') format('ttf'),
+       url('../fonts/DingTalk_JinBuTi_Regular.woff') format('woff'),
+       url('../fonts/DingTalk_JinBuTi_Regular.woff2') format('woff2');
+}
+
+/* 应用字体文件 */
+* {
+  font-family: "MyFont", sans-serif;
+}
+
+/* 主页的用户头像 + 用户名 */
+.message-box {
+    text-align: center;
+}
+
+.message-box .img1 {
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 120%;
+    height: auto;
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden;
+}
+
+/* 主页帖子中的标题 链接 */
+.title-link {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100px;
+    transition: color 0.3s, font-size 0.3s;
+    color: black;
+}
+
+.title-link:hover {
+    font-size: 1.5em;
+    color: primary;
+}
+
+/* 详情界面帖子中的标题 非链接 */
+.title-detail {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100px;
+    color: black;
+  }
+  
+  /* 详情界面评论区的分界线 */
+  .hr-dashed-fixed {
+    border: 0;
+      border-top: 3px double #d0d0d5;
+      }
+
+/* 评论页面与帖子详情页面的用户头像 + 输入框 */
+.message-box .img2 {
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 110%;
+    height: auto;
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden;
+  }
+
+  .replymes {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0, 0, 0, 0.06);
+    border-top: 0 solid rgba(0, 0, 0, 0.125);
+  }
+
+
+.boxdir {
+  height: 300vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px;
+  background-color: gray;
+}
+
+
+
+  
+
+
+  
